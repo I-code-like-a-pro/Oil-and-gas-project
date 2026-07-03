@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import OilAndGasHomepage from './components1/OilandGas';
 import AboutUsPage from './Pages/Aboutus';
 // Import other pages as you create them
@@ -30,6 +31,7 @@ function App() {
         
 
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
