@@ -113,18 +113,20 @@ const OilAndGasHomepage = () => {
             <div className="og-footer-links">
               <h4>Operations</h4>
               <ul>
-                <li>Exploration</li>
-                <li>Production</li>
-                <li>Refining</li>
-                <li>Chemicals</li>
+                <li><a href="/procurement">Procurement and supply of oil and gas equipment</a></li>
+                <li><a href="/petroleum-marketing">Petroleum product marketing and distribution</a></li>
+                <li><a href="/oilfield-support">Oilfield support services</a></li>
+                <li><a href="/logistics">Logistics and transportation services for the energy sector</a></li>
+                <li><a href="/equipment-leasing">Equipment leasing and maintenance</a></li>
               </ul>
             </div>
             <div className="og-footer-links">
               <h4>Sustainability</h4>
               <ul>
-                <li>Climate strategy</li>
-                <li>Safety</li>
-                <li>Communities</li>
+                <li><a href="/technical-consulting">Technical consulting and project support</a></li>
+                <li><a href="/general-contracting">General contracting for oil and gas projects</a></li>
+                <li><a href="/safety-compliance">Safety, environmental, and compliance support services</a></li>
+                <li><a href="/manpower-sourcing">Manpower sourcing and outsourcing for oil and gas companies</a></li>
               </ul>
             </div>
            

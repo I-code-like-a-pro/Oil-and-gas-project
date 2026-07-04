@@ -105,7 +105,7 @@ const AboutPage = () => {
               <h4>Support</h4>
               <ul>
                 <li><a href="/contact">Contact</a></li>
-                <li><a href="https://whatsapp.com/dl/">WhatsApp</a></li>
+                <li><a href="https://wa.me/+2348144134179">WhatsApp</a></li>
               </ul>
             </div>
           </div>

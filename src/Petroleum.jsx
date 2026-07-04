@@ -1,22 +1,22 @@
 import Header from './components/Header';
 
-const ContactPage = () => {
+const PetroleumMarketingPage = () => {
   return (
     <div className="og-homepage">
-      <Header activePage="contact" />
+      <Header activePage="petroleum-marketing" />
 
       <section className="og-hero">
         <div className="og-container">
           <div className="og-hero-content">
             <div className="og-hero-tagline">
-              <span className="og-icon og-icon-oil"></span> Contact Support
+              <span className="og-icon og-icon-oil"></span> Our Services
             </div>
-            <h1 className="og-hero-title">Reach Our Service Team</h1>
+            <h1 className="og-hero-title">Petroleum Product Marketing & Distribution</h1>
             <p className="og-hero-text">
-              Get in touch for procurement, logistics coordination, technical support, project facilitation, and consultancy services across the energy sector.
+              Connecting refined petroleum products with markets through dependable distribution channels.
             </p>
             <div className="og-hero-buttons">
-              <a href="https://wa.me/+2348144134179" className="og-btn og-btn-primary og-btn-large">WhatsApp Link</a>
+              <a href="/contact" className="og-btn og-btn-primary og-btn-large">Get in Touch →</a>
               <a href="/" className="og-btn og-btn-outline">Back to Home</a>
             </div>
           </div>
@@ -24,44 +24,43 @@ const ContactPage = () => {
         <div className="og-hero-bg-decoration"></div>
       </section>
 
-      <section id="contact" className="og-about">
+      <section className="og-about">
         <div className="og-container">
           <div className="og-about-grid">
             <div className="og-about-content">
-              <span className="og-section-tag">Contact Us</span>
-              <h2 className="og-section-title">Let Us Support Your Operations</h2>
+              <span className="og-section-tag">What We Offer</span>
+              <h2 className="og-section-title">Getting Product to Market, Reliably</h2>
               <p className="og-about-text">
-                Our team is available to answer questions about our oilfield equipment supply, logistics coordination, technical assistance, and regulatory consulting.
+                We support the marketing and distribution of refined petroleum products, connecting producers, marketers, and end users through efficient supply channels. Our focus is on consistency, compliance, and building trusted trading relationships.
               </p>
               <div className="og-about-features">
                 <div className="og-feature">
-                  <span className="og-feature-icon">🌐</span>
+                  <span className="og-feature-icon">⛽</span>
                   <div>
-                    <h3>Social Media</h3>
-                    <p>You can contact us at our social media page</p>
-                    <p><a href="https://whatsapp.com/dl/" target="_blank"className="og-btn og-btn-primary og-btn-large">Here</a></p>
+                    <h3>Product Distribution</h3>
+                    <p>Coordinated distribution of petroleum products to depots and retailers.</p>
                   </div>
                 </div>
                 <div className="og-feature">
                   <span className="og-feature-icon">🤝</span>
                   <div>
-                    <h3>Operational Support</h3>
-                    <p>Reliable service delivery through strategic supplier partnerships.</p>
+                    <h3>Market Access</h3>
+                    <p>Linking suppliers with buyers across the energy value chain.</p>
                   </div>
                 </div>
                 <div className="og-feature">
-                  <span className="og-feature-icon">✅</span>
+                  <span className="og-feature-icon">📋</span>
                   <div>
-                    <h3>Trusted Partner</h3>
-                    <p>Built for oil & gas companies, contractors, governments and industry stakeholders.</p>
+                    <h3>Regulatory Compliance</h3>
+                    <p>Distribution handled in line with industry standards and regulations.</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="og-about-image">
               <div className="og-image-placeholder">
-                <span className="og-placeholder-icon">💬</span>
-                <p>Talk to us now<br /><span>WhatsApp support</span></p>
+                <span className="og-placeholder-icon">🛢️</span>
+                <p>Marketing & Distribution<br /><span>From refinery to market</span></p>
               </div>
             </div>
           </div>
@@ -78,24 +77,15 @@ const ContactPage = () => {
               <p>Delivering energy support with dependable operational services and industry expertise.</p>
             </div>
             <div className="og-footer-links">
-              <h4>Operations</h4>
-              <ul>
-                <li><a href="/exploration">Exploration</a></li>
-                <li><a href="/production">Production</a></li>
-                <li><a href="/refining">Refining</a></li>
-                <li><a href="/chemicals">Chemicals</a></li>
-              </ul>
-            </div>
-            <div className="og-footer-links">
               <h4>Support</h4>
               <ul>
                 <li><a href="/contact">Contact</a></li>
-                <li><a href="https://whatsapp.com/dl/">WhatsApp</a></li>
+                <li><a href="https://wa.me/+2348144134179">WhatsApp</a></li>
               </ul>
             </div>
           </div>
           <div className="og-footer-bottom">
-            <p>© 2025 EnergyCore. All rights reserved.</p>
+            <p>© 2026 Enomfon Multimedia Hub. All rights reserved.</p>
           </div>
         </div>
       </footer>
@@ -103,4 +93,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default PetroleumMarketingPage;
