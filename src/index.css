@@ -5,11 +5,11 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: #1e1e1e;
+  background-color: #fff;
+  overflow-x: hidden;
 }
 
 code {
@@ -29,6 +29,7 @@ body {
   line-height: 1.6;
   color: #1e1e1e;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 .og-container {
@@ -604,10 +605,58 @@ body {
 }
 
 @media (max-width: 768px) {
-  .og-hero-title {
-    font-size: 38px;
+  .og-container {
+    padding: 0 20px;
   }
-  
+
+  .og-header-content {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    padding: 16px 0;
+  }
+
+  .og-logo {
+    font-size: 20px;
+  }
+
+  .og-btn-primary,
+  .og-btn-outline,
+  .og-btn-large {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .og-hero {
+    padding: 72px 0;
+  }
+
+  .og-hero-title {
+    font-size: 34px;
+    line-height: 1.15;
+  }
+
+  .og-hero-text {
+    font-size: 16px;
+  }
+
+  .og-hero-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .og-about,
+  .og-sustainability,
+  .og-safety,
+  .og-footer {
+    padding: 70px 0;
+  }
+
+  .og-section-title {
+    font-size: 28px;
+  }
+
   .og-global-grid, .og-safety-grid, .og-stats-grid {
     grid-template-columns: 1fr;
   }
@@ -619,9 +668,66 @@ body {
   .og-sustainability-stats {
     flex-direction: column;
   }
+
+  .og-image-placeholder {
+    padding: 40px 24px;
+  }
+
+  .og-placeholder-icon {
+    font-size: 48px;
+  }
+
+  .og-image-placeholder p {
+    font-size: 18px;
+  }
   
+  .og-footer-grid {
+    gap: 24px;
+  }
+
   .og-footer-bottom {
     flex-direction: column;
     gap: 16px;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .og-container {
+    padding: 0 16px;
+  }
+
+  .og-logo {
+    font-size: 18px;
+  }
+
+  .og-hero {
+    padding: 60px 0;
+  }
+
+  .og-hero-title {
+    font-size: 28px;
+  }
+
+  .og-hero-tagline {
+    font-size: 12px;
+  }
+
+  .og-section-title {
+    font-size: 24px;
+  }
+
+  .og-about-text,
+  .og-sustainability-text {
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+
+  .og-safety-card {
+    padding: 28px 16px;
+  }
+
+  .og-footer {
+    padding: 56px 0 24px;
   }
 }
