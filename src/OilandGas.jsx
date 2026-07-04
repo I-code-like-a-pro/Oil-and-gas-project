@@ -113,18 +113,18 @@ const OilAndGasHomepage = () => {
             <div className="og-footer-links">
               <h4>Operations</h4>
               <ul>
-                <li><a href="/exploration">Exploration</a></li>
-                <li><a href="/production">Production</a></li>
-                <li><a href="/refining">Refining</a></li>
-                <li><a href="/chemicals">Chemicals</a></li>
+                <li>Exploration</li>
+                <li>Production</li>
+                <li>Refining</li>
+                <li>Chemicals</li>
               </ul>
             </div>
             <div className="og-footer-links">
               <h4>Sustainability</h4>
               <ul>
-                <li><a href="/climate-strategy">Climate strategy</a></li>
-                <li><a href="/safety">Safety</a></li>
-                <li><a href="/communities">Communities</a></li>
+                <li>Climate strategy</li>
+                <li>Safety</li>
+                <li>Communities</li>
               </ul>
             </div>
            
