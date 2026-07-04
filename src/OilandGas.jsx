@@ -42,25 +42,23 @@ const OilAndGasHomepage = () => {
             <div className="og-sustainability-image">
               <div className="og-image-placeholder og-image-placeholder-dark">
                 <span className="og-placeholder-icon">🛡️</span>
-                <p>Carbon Capture</p>
+                <p>Providing Serivces That Lasts Longer Than Others</p>
               </div>
             </div>
             <div className="og-sustainability-content">
               <span className="og-section-tag">Sustainability</span>
-              <h2 className="og-section-title">Reducing Emissions, Increasing Access</h2>
+              <h2 className="og-section-title">Technical Consulting And Project Support</h2>
               <p className="og-sustainability-text">
-                We are committed to net-zero by 2050. Our roadmap includes methane detection, 
-                carbon capture and storage (CCS), and investments in renewable diesel and 
-                green hydrogen. We believe reliable energy must also be responsible energy.
+             
               </p>
               <div className="og-sustainability-stats">
                 <div className="og-sus-stat">
-                  <span className="og-sus-number">-35%</span>
-                  <span className="og-sus-label">Scope 1 & 2 intensity since 2018</span>
+                  <span className="og-sus-number">Contracting For Oil And Gas Projects</span>
+                  <span className="og-sus-label">General Contracting For Oil And Gas Projects</span>
                 </div>
                 <div className="og-sus-stat">
-                  <span className="og-sus-number">$2.5B</span>
-                  <span className="og-sus-label">Annual low-carbon investment</span>
+                  <span className="og-sus-number">Manpower Sourcing</span>
+                  <span className="og-sus-label">Manpower sourcing and outsourcing for oil and gas companies</span>
                 </div>
               </div>
             </div>
@@ -72,28 +70,28 @@ const OilAndGasHomepage = () => {
       <section className="og-safety">
         <div className="og-container">
           <div className="og-section-header">
-            <span className="og-section-tag">Our strength</span>
-            <h2 className="og-section-title">Safety First, Always</h2>
+            <span className="og-section-tag">Operations</span>
+            <h2 className="og-section-title">A List Of Our Operations Can Be Seen</h2>
             <p className="og-section-desc">
-              Our workforce is our most valuable asset. We maintain industry-leading safety standards 
+              Our Operations performed is our most valuable asset. We carry outoperations industries need with accompanied with top notch safety standards 
               and foster a culture of inclusion and continuous learning.
             </p>
           </div>
           <div className="og-safety-grid">
             <div className="og-safety-card">
               <span className="og-safety-icon">🛡️</span>
-              <h3>0.12 TRIR</h3>
-              <p>Total recordable injury rate – best in class</p>
+              <h3>Logistics</h3>
+              <p>Logistics and transportation services for the energy sector</p>
             </div>
             <div className="og-safety-card">
               <span className="og-safety-icon">👥</span>
-              <h3>35% Women</h3>
-              <p>In technical roles, up 8% from 2020</p>
+              <h3>Marketing</h3>
+              <p>Petroleum product marketing and distribution</p>
             </div>
             <div className="og-safety-card">
               <span className="og-safety-icon">🏭</span>
-              <h3>10k+</h3>
-              <p>Training hours per year per facility</p>
+              <h3>Procurement</h3>
+              <p>Procurement and supply of oil and gas equipment</p>
             </div>
           </div>
         </div>

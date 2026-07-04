@@ -75,30 +75,35 @@ const ContactPage = () => {
               <div className="og-logo og-footer-logo">
                 <span className="og-logo-highlight">ENERGY</span>CORE
               </div>
-              <p>Delivering energy support with dependable operational services and industry expertise.</p>
+              <p>Delivering energy for humanity's progress, today and tomorrow.</p>
             </div>
             <div className="og-footer-links">
               <h4>Operations</h4>
               <ul>
-                <li><a href="/exploration">Exploration</a></li>
-                <li><a href="/production">Production</a></li>
-                <li><a href="/refining">Refining</a></li>
-                <li><a href="/chemicals">Chemicals</a></li>
+                <li><a href="/procurement">Procurement and supply of oil and gas equipment</a></li>
+                <li><a href="/petroleum-marketing">Petroleum product marketing and distribution</a></li>
+                <li><a href="/oilfield-support">Oilfield support services</a></li>
+                <li><a href="/logistics">Logistics and transportation services for the energy sector</a></li>
+                <li><a href="/equipment-leasing">Equipment leasing and maintenance</a></li>
               </ul>
             </div>
             <div className="og-footer-links">
-              <h4>Support</h4>
+              <h4>Sustainability</h4>
               <ul>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="https://whatsapp.com/dl/">WhatsApp</a></li>
+                <li><a href="/technical-consulting">Technical consulting and project support</a></li>
+                <li><a href="/general-contracting">General contracting for oil and gas projects</a></li>
+                <li><a href="/safety-compliance">Safety, environmental, and compliance support services</a></li>
+                <li><a href="/manpower-sourcing">Manpower sourcing and outsourcing for oil and gas companies</a></li>
               </ul>
             </div>
+           
           </div>
           <div className="og-footer-bottom">
             <p>© 2025 EnergyCore. All rights reserved.</p>
           </div>
         </div>
       </footer>
+
     </div>
   );
 };
