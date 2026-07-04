@@ -90,8 +90,6 @@ const EquipmentLeasingPage = () => {
               <h4>Sustainability</h4>
               <ul>
                 <li><a href="/technical-consulting">Technical consulting and project support</a></li>
-                <li><a href="/general-contracting">General contracting for oil and gas projects</a></li>
-                <li><a href="/safety-compliance">Safety, environmental, and compliance support services</a></li>
                 <li><a href="/manpower-sourcing">Manpower sourcing and outsourcing for oil and gas companies</a></li>
               </ul>
             </div>

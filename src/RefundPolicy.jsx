@@ -89,8 +89,7 @@ const RefundPolicy = () => {
             <div className="og-footer-links">
               <h4>Sustainability</h4>
               <ul>
-                <li><a href="/technical-consulting">Technical consulting and project support</a></li>
-                
+                <li><a href="/technical-consulting">Technical consulting and project support</a></li>        
                 <li><a href="/manpower-sourcing">Manpower sourcing and outsourcing for oil and gas companies</a></li>
               </ul>
             </div>
