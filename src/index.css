@@ -598,9 +598,15 @@ body {
   .og-global-grid, .og-safety-grid, .og-stats-grid {
     grid-template-columns: 1fr 1fr;
   }
-  
+
   .og-nav {
-    display: none;
+    display: block;
+    width: 100%;
+  }
+
+  .og-nav ul {
+    flex-wrap: wrap;
+    gap: 12px 20px;
   }
 }
 
@@ -618,6 +624,20 @@ body {
 
   .og-logo {
     font-size: 20px;
+  }
+
+  .og-nav {
+    width: 100%;
+  }
+
+  .og-nav ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .og-nav a {
+    display: inline-block;
+    padding: 2px 0;
   }
 
   .og-btn-primary,

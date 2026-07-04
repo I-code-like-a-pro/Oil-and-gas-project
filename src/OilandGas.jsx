@@ -38,8 +38,8 @@ const OilAndGasHomepage = () => {
               we deliver reliable energy while investing in a sustainable future.
             </p>
             <div className="og-hero-buttons">
-              <a href="/operations" className="og-btn og-btn-primary og-btn-large">Our Operations →</a>
-              <a href="/sustainability" className="og-btn og-btn-outline">Sustainability Report</a>
+              <a href="/about" className="og-btn og-btn-primary og-btn-large">Our Operations →</a>
+              <a href="#sustainability" className="og-btn og-btn-outline">Sustainability Report</a>
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ const OilAndGasHomepage = () => {
       {/* About moved to a dedicated page: /about */}
 
       {/* --- Sustainability Summary (Homepage appropriate) --- */}
-      <section className="og-sustainability">
+      <section className="og-sustainability" id="sustainability">
         <div className="og-container">
           <div className="og-sustainability-grid">
             <div className="og-sustainability-image">
