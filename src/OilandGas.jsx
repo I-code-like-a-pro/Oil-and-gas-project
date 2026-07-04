@@ -1,5 +1,4 @@
-
-; // import the custom CSS file
+import Header from './components/Header';
 
 const OilAndGasHomepage = () => {
   return (
