@@ -15,7 +15,8 @@ const OilAndGasHomepage = () => {
             <nav className="og-nav">
               <ul>
                 <li><a href="#home" className="active">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/refund-policy">Refund Policy</a></li>
                 <li><a href="/contact">Contact</a></li>
               </ul>
             </nav>
@@ -48,62 +49,7 @@ const OilAndGasHomepage = () => {
       {/* --- Key Statistics / About Info (Homepage appropriate) --- */}
   
 
-      {/* --- About Core Business (Homepage summary) --- */}
-      <section id="about" className="og-about">
-        <div className="og-container">
-          <div className="og-about-grid">
-            <div className="og-about-content">
-              <span className="og-section-tag">About Us</span>
-              <h2 className="og-section-title">Support Services for Energy Sector Growth</h2>
-              <p className="og-about-text">
-                Our core services include procurement and supply of oilfield equipment, logistics coordination, technical support, project facilitation, and consultancy services for companies operating within the energy sector.
-              </p>
-              <p className="og-about-text">
-                We also provide business development and administrative support solutions to industry stakeholders, serving oil and gas companies, contractors, government agencies, industrial firms, and private sector organizations requiring reliable operational support.
-              </p>
-              <p className="og-about-text">
-                Our model focuses on building strategic partnerships with suppliers and service providers, ensuring efficient delivery, regulatory compliance, quality assurance, and customer satisfaction while leveraging technology and expertise for sustainable growth.
-              </p>
-              <div className="og-about-features">
-                <div className="og-feature">
-                  <span className="og-feature-icon">🛒</span>
-                  <div>
-                    <h3>Procurement</h3>
-                    <p>Reliable supply of oilfield equipment and materials.</p>
-                  </div>
-                </div>
-                <div className="og-feature">
-                  <span className="og-feature-icon">🚚</span>
-                  <div>
-                    <h3>Logistics</h3>
-                    <p>Coordinated transport, warehousing, and delivery services.</p>
-                  </div>
-                </div>
-                <div className="og-feature">
-                  <span className="og-feature-icon">🛠️</span>
-                  <div>
-                    <h3>Technical Support</h3>
-                    <p>Field assistance, maintenance, and operational expertise.</p>
-                  </div>
-                </div>
-                <div className="og-feature">
-                  <span className="og-feature-icon">📈</span>
-                  <div>
-                    <h3>Consultancy</h3>
-                    <p>Project facilitation, compliance, and business development.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="og-about-image">
-              <div className="og-image-placeholder">
-                <span className="og-placeholder-icon">🛢️</span>
-                <p>Operational Support<br /><span>Energy Sector Services</span></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* About moved to a dedicated page: /about */}
 
       {/* --- Sustainability Summary (Homepage appropriate) --- */}
       <section className="og-sustainability">

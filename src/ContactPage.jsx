@@ -10,7 +10,8 @@ const ContactPage = () => {
             <nav className="og-nav">
               <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/#about">About</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/refund-policy">Refund Policy</a></li>
                 <li><a href="/contact" className="active">Contact</a></li>
               </ul>
             </nav>
@@ -49,15 +50,11 @@ const ContactPage = () => {
               </p>
               <div className="og-about-features">
                 <div className="og-feature">
-                  <span className="og-feature-icon">📱</span>
-                  <div>
-                    <h3>WhatsApp</h3>
-                  </div>
-                </div>
-                <div className="og-feature">
                   <span className="og-feature-icon">🌐</span>
                   <div>
                     <h3>Social Media</h3>
+                    <p>You can contact us at our social media page</p>
+                    <p><a href="https://whatsapp.com/dl/" target="_blank"className="og-btn og-btn-primary og-btn-large">Here</a></p>
                   </div>
                 </div>
                 <div className="og-feature">
