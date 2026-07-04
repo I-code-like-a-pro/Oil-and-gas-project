@@ -52,7 +52,6 @@ const ContactPage = () => {
                   <span className="og-feature-icon">📱</span>
                   <div>
                     <h3>WhatsApp</h3>
-                    <p className="og-contact-phone">+234 814 413 4179</p>
                   </div>
                 </div>
                 <div className="og-feature">
