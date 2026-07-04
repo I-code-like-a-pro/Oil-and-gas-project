@@ -3,26 +3,11 @@ import Header from './components/Header';
 const OilAndGasHomepage = () => {
   return (
     <div className="og-homepage">
+      <Header activePage="home" />
       
       {/* --- Header & Navigation --- */}
-      <header className="og-header">
-        <div className="og-container">
-          <div className="og-header-content">
-            <div className="og-logo">
-              <span className="og-logo-highlight">ENOMFON</span>MULTIMEDIA HUB
-            </div>
-            <nav className="og-nav">
-              <ul>
-                <li><a href="#home" className="active">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/refund-policy">Refund Policy</a></li>
-                <li><a href="/contact">Contact</a></li>
-              </ul>
-            </nav>
-            <a href="/reports" className="og-btn og-btn-primary">Reports →</a>
-          </div>
-        </div>
-      </header>
+  
+    
 
       {/* --- Hero Section --- */}
       <section id="home" className="og-hero">

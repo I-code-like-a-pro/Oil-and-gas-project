@@ -4,6 +4,7 @@ const RefundPolicy = () => {
   return (
     <div className="og-homepage">
       <Header activePage="refund" />
+
       <section className="og-hero">
         <div className="og-container">
           <div className="og-hero-content">

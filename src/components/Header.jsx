@@ -19,7 +19,7 @@ const Header = ({ activePage = 'home', showReports = true }) => {
               <span className="og-logo-highlight">ENOMFON</span>MULTIMEDIA HUB
             </div>
             <button
-              className="og-menu-toggle"
+              className={`og-menu-toggle ${isMenuOpen ? 'open' : ''}`}
               type="button"
               aria-label="Toggle navigation"
               aria-expanded={isMenuOpen}
@@ -46,12 +46,6 @@ const Header = ({ activePage = 'home', showReports = true }) => {
               ))}
             </ul>
           </nav>
-
-          {showReports && (
-            <a href="/reports" className="og-btn og-btn-primary">
-              Reports →
-            </a>
-          )}
         </div>
       </div>
     </header>
