@@ -1,5 +1,5 @@
-import React from "react";
-import "./OilandGas.css"; // import the custom CSS file
+
+; // import the custom CSS file
 
 const OilAndGasHomepage = () => {
   return (
@@ -15,7 +15,7 @@ const OilAndGasHomepage = () => {
             <nav className="og-nav">
               <ul>
                 <li><a href="#home" className="active">Home</a></li>
-                <li><a href="/about">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="/contact">Contact</a></li>
               </ul>
             </nav>
@@ -49,44 +49,48 @@ const OilAndGasHomepage = () => {
   
 
       {/* --- About Core Business (Homepage summary) --- */}
-      <section className="og-about">
+      <section id="about" className="og-about">
         <div className="og-container">
           <div className="og-about-grid">
             <div className="og-about-content">
-              <span className="og-section-tag">Integrated Approach</span>
-              <h2 className="og-section-title">From Reservoir to Retail</h2>
+              <span className="og-section-tag">About Us</span>
+              <h2 className="og-section-title">Support Services for Energy Sector Growth</h2>
               <p className="og-about-text">
-                We manage the entire hydrocarbon value chain. Our upstream innovations maximize 
-                recovery, while our refineries and petrochemical plants set benchmarks for 
-                efficiency and safety. We are also expanding into low-carbon energy.
+                Our core services include procurement and supply of oilfield equipment, logistics coordination, technical support, project facilitation, and consultancy services for companies operating within the energy sector.
+              </p>
+              <p className="og-about-text">
+                We also provide business development and administrative support solutions to industry stakeholders, serving oil and gas companies, contractors, government agencies, industrial firms, and private sector organizations requiring reliable operational support.
+              </p>
+              <p className="og-about-text">
+                Our model focuses on building strategic partnerships with suppliers and service providers, ensuring efficient delivery, regulatory compliance, quality assurance, and customer satisfaction while leveraging technology and expertise for sustainable growth.
               </p>
               <div className="og-about-features">
                 <div className="og-feature">
-                  <span className="og-feature-icon">⛽</span>
+                  <span className="og-feature-icon">🛒</span>
                   <div>
-                    <h3>Exploration</h3>
-                    <p>Deepwater & unconventional</p>
+                    <h3>Procurement</h3>
+                    <p>Reliable supply of oilfield equipment and materials.</p>
                   </div>
                 </div>
                 <div className="og-feature">
-                  <span className="og-feature-icon">🧪</span>
+                  <span className="og-feature-icon">🚚</span>
                   <div>
-                    <h3>Petrochemicals</h3>
-                    <p>Olefins, polyolefins</p>
+                    <h3>Logistics</h3>
+                    <p>Coordinated transport, warehousing, and delivery services.</p>
                   </div>
                 </div>
                 <div className="og-feature">
-                  <span className="og-feature-icon">📊</span>
+                  <span className="og-feature-icon">🛠️</span>
                   <div>
-                    <h3>Trading</h3>
-                    <p>Global commodities</p>
+                    <h3>Technical Support</h3>
+                    <p>Field assistance, maintenance, and operational expertise.</p>
                   </div>
                 </div>
                 <div className="og-feature">
-                  <span className="og-feature-icon">☀️</span>
+                  <span className="og-feature-icon">📈</span>
                   <div>
-                    <h3>New Energy</h3>
-                    <p>Solar, CCS, hydrogen</p>
+                    <h3>Consultancy</h3>
+                    <p>Project facilitation, compliance, and business development.</p>
                   </div>
                 </div>
               </div>
@@ -94,7 +98,7 @@ const OilAndGasHomepage = () => {
             <div className="og-about-image">
               <div className="og-image-placeholder">
                 <span className="og-placeholder-icon">🛢️</span>
-                <p>Offshore Platform<br /><span>North Sea Operations</span></p>
+                <p>Operational Support<br /><span>Energy Sector Services</span></p>
               </div>
             </div>
           </div>
