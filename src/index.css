@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+.contact-phonenumber:visited {
+  color: #475569;
+}
+
 .og-container {
   max-width: 1280px;
   margin: 0 auto;
@@ -634,7 +638,9 @@ ul.og-about-text li {
 .og-footer-legal a:hover {
   color: #f97316;
 }
-
+.contact-phonenumber:visited{
+  color: #475569;
+}
 /* ================================================================= */
 /* ========================= RESPONSIVE ============================ */
 /* ================================================================= */
