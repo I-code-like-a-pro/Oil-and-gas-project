@@ -53,7 +53,7 @@ const ContactPage = () => {
                   <span className="og-feature-icon">📞</span>
                   <div>
                     <h3>Phone</h3>
-                    <p><a href="tel:+18005551234" className='contact-phonenumber'>Contact Me Here</a></p>
+                    <p><a href="tel:+2348144134179" className='contact-phonenumber'>Contact Me Here</a></p>
                   </div>
                 </div>
                 <div className="og-feature">
