@@ -74,7 +74,7 @@ const PetroleumMarketingPage = () => {
           <div className="og-footer-grid">
             <div className="og-footer-about">
               <div className="og-logo og-footer-logo">
-                <span className="og-logo-highlight">ENERGY</span>CORE
+                <span className="og-logo-highlight">ENOMFON</span>MULTIMEDEIAHUB
               </div>
               <p>Delivering energy for humanity's progress, today and tomorrow.</p>
             </div>
@@ -98,7 +98,7 @@ const PetroleumMarketingPage = () => {
            
           </div>
           <div className="og-footer-bottom">
-            <p>© 2025 EnergyCore. All rights reserved.</p>
+            <p>© 2025 ENOMFONMULTIMEDIAHUB. All rights reserved.</p>
           </div>
         </div>
       </footer>
